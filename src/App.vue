@@ -1,6 +1,6 @@
 <template>
   <div id="app">  
-    <ColorPicker :color='blue' />  
+    <ColorPicker :color='color' />  
     <Canvas/>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   name: "App",
   data: function() {
     return {
-      color: 'blue'
+      color: 'white'
     }
   },
   components: {
