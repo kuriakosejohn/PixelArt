@@ -26,6 +26,7 @@ export default {
 }
 </script>
 
+
 <style scoped>
 .pixel {
   border: 1px solid lightgray;
@@ -33,6 +34,7 @@ export default {
   height: 30px;
   box-sizing: border-box;
 }
+
 .white {
   background-color: white;
 }
