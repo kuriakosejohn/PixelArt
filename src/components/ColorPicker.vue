@@ -1,10 +1,9 @@
 <template>
   <div>
-    <Pixel interactive color="white" current="true"/>
-    <Pixel interactive color="lightblue" current="color == 'lightblue' ? true : false"/>
-    <Pixel interactive color="blue" current="color == 'blue' ? true : false"/>
-    <Pixel interactive color="darkblue" current="color == 'darkblue' ? true : false"/>
-    {{color}}
+    <Pixel color="white" :current="color == 'white' ? true : false"/>
+    <Pixel color="lightblue" :current="color == 'lightblue' ? true : false"/>
+    <Pixel color="blue" :current="color == 'blue' ? true : false" />
+    <Pixel color="darkblue" :current="color == 'darkblue' ? true : false" />    
   </div>
 </template>
 
